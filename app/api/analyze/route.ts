@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
 
     const analyzeOnce = () =>
   generateObject({
-    model: openai('gpt-4.1-mini'),
+    model: openai('gpt-4.1'),
     temperature: 0,
     schema,
     messages: [
