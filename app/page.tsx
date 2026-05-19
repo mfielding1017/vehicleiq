@@ -91,7 +91,11 @@ export default function Home() {
     <main className="container">
       <section className="hero">
         <span className="badge">Vehicle identification + visual comparison MVP</span>
-        <h1>VehicleIQ</h1>
+        <img
+  src="/vehicleiq-logo.png"
+  alt="VehicleIQ logo"
+  style={{ maxWidth: 360, width: '100%', marginBottom: 16 }}
+/>
         <p>
           Upload a vehicle photo to estimate make/model/year range, or compare a suspect vehicle
           against a possible match. Results are visual estimates, not legal conclusions.
